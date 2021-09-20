@@ -19,10 +19,11 @@
    </ul> 
 
 ## Requisitos
-  <p>preparado para ser executado utilizando <u>Linux</u> como sistema operacional
-  necessário ter <u>docker</u> e <u>docker-compose</u> instalados
+  <p>preparado para ser executado utilizando <u>Linux</u> como sistema operacional,
+   é necessário ter <u>docker versão 20.10.*</u> e <u>docker-compose versão 1.28.*</u> instalados.
   </p>
-
+ 
+  <strong>* pode ocorrer erros de validação do arquivo docker-compose.yml com versões mais antigas do docker-compose</strong>
 
 
 ## Clonar o projeto (back-end)
@@ -87,6 +88,14 @@ $ make migrate-seed
 $ make init
 ```
  <p>Este comando prepara os arquivos de configuração e inicia o container</p>
+
+
+ <p> O container do projeto do front-end estara sendo executado na porta 80 e o back-end estara sendo executado na porta 8080 </p>  
+
+ <a href="http://localhost" target="_blank"> 
+  http://localhost
+ </a> 
+
 
 
 
