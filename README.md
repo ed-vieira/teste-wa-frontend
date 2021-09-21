@@ -92,10 +92,32 @@ $ make init
 
  <p> O container do projeto do front-end estara sendo executado na porta 80 e o back-end estara sendo executado na porta 8080 </p>  
 
+<p>
  <a href="http://localhost" target="_blank"> 
   http://localhost
  </a> 
+</p>
 
+
+<p>* Possíveis erros</p>
+
+<p>Se sua configuração do docker exigir privilégios de usuario basta executar os mesmos comandos como sudo</p>
+<p>exemplo:</p>
+
+```bash
+$ sudo make init
+```
+
+<p>Problemas com o comando <strong>make</strong> ?</p>
+<p>Normalmente deve estar instalado por padrão, caso este comando não seja reconhecido em sua distro:</p>
+
+<p>
+<a href="https://askubuntu.com/questions/192645/make-command-not-found" target="_blank">https://askubuntu.com/questions/192645/make-command-not-found</a>
+</p>
+
+
+<p>Problemas da validação do docker-compose.yml </p>
+<p>versão do docker: docker-compose versão 1.28.* ou superior</p> 
 
 
 
